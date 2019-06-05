@@ -21,4 +21,16 @@ echo "<!DOCTYPE html>
 </body>
 </html>";
 
+//со звездочкой
+
+$a = 3;
+$b = 8;
+
+echo "<br>a = $a <br> b = $b";
+
+$a = $a + $b;
+$b = $a - $b;
+$a = $a - $b;
+
+echo "<br>a = $a <br> b = $b";
 
